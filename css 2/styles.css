@@ -77,11 +77,10 @@ span{
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.container>h1{
-  position: absolute;
+.lat>h1{
+  
   color:rgb(103,115,56) ;
-  right: 75%;
-  bottom: 5%;
+  
 }
 .card-text {
   padding: 2% 3%;
@@ -97,8 +96,7 @@ flex-basis: 30%;
 .line{
   height: 50%;
   border-left: 3px solid rgb(103,115,56);
-      padding-left: 5%; 
-
+  padding-left: 5%; 
 }
 .card>img {
   border-radius: 5px 5px 0 0;
@@ -134,10 +132,13 @@ flex-basis: 30%;
     z-index: -1;
     transition: .6s;
     color: rgb(192, 31, 31);
+    justify-content: start;
+    padding-bottom: 1%;
   }
   
   nav .nav-list .nav-item {
-    padding-left: 35px;
+    padding-left: 10%;
+    font-size: 13px;
   }
   nav .navbar-toggler {
     display: grid !important;
@@ -150,17 +151,20 @@ nav .navbar-toggler {
   display: none;
   height: min-content;
   align-items: center;
-  margin: 18px -10px 0 0;
+  margin: 3% 3% 0 0;
   cursor: pointer;
+  justify-content: end;
 }
 nav .navbar-toggler .bar {
-  width: 40px;
-  height: 5px;
-  margin-bottom: 6px;
+  width: 14px;
+  height: 3px;
+  margin-bottom: 4px;
   background: #000000;
   border-radius: 10%;
   transition: .4s;
-  margin-left:5%;
+  margin-left:16%;
+  justify-content: end;
+
 }
 .container{
   flex-direction: column;
@@ -185,7 +189,8 @@ input:checked~nav .navbar-toggler {
 }
 input:checked~nav .navbar-toggler .bar:nth-child(1) {
   position: absolute;
-  transform: rotate(45deg);
+  transform: rotate(48deg);
+  right:2.5%;
 }
 input:checked~nav .navbar-toggler .bar:nth-child(2) {
   display: none; 
