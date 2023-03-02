@@ -126,7 +126,7 @@ flex-basis: 30%;
     display: grid;
     position: absolute;
     width: 100%;
-    top: 62px;
+    top: 66px;
     left: 0;
     transform: translateY(-200%);
     z-index: -1;
